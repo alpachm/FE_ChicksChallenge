@@ -1,0 +1,9 @@
+.fa-ellipsis-vertical{
+    font-size: 45px;
+}
+
+@media (min-width: 1024px){
+    .fa-ellipsis-vertical{
+        display: none;
+    }  
+}

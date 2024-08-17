@@ -1,0 +1,228 @@
+.card{
+    background-color: var(--GRAY_COLOR);
+    border-radius: 5px;
+    padding: 2rem;
+    display: grid;
+    gap: 1rem
+}
+
+.card header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card header .left-side{
+    display: grid;;
+    gap: .5rem;
+}
+
+.card header .left-side section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem
+}
+
+.card header .left-side section span{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card header .left-side section .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.card header .left-side .stock-container{
+    padding: .2rem .5rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card header .left-side .stock-container span{
+    font-size: 15px;
+}
+
+.right-side{
+    background-color: var(--LIGHT_GRAY_COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.right-side section{
+    display: grid;
+}
+
+.icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-container img{
+    width: 100px;
+}
+
+.name-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-container h2{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.name-container img{
+    width: 50px;
+}
+
+.price-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price-container span{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: line-through;
+    -webkit-text-decoration-color: #FF0000;
+            text-decoration-color: #FF0000;
+}
+
+.paragraph{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+    opacity: .8;
+}
+
+.card footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card footer button{
+    width: 48%;
+    height: 50px;
+    background-color: var(--LIGHT_GRAY_COLOR);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.card footer button:nth-child(2){
+    background-color: var(--BLUE_COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card footer button i{
+    background-color: var(--LIGHT_BLUE_COLOR);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+@media (min-width: 1024px){
+    .card {
+        gap: .5rem;
+        padding: 12px;
+    }
+
+    .card header .left-side section .circle{
+        width: 5px;
+        height: 5px;
+    }
+
+    .card header .left-side section span{
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    .card header .left-side .stock-container span{
+        font-size: 11px;
+    }
+
+    .right-side{
+        gap: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    
+    .icon-container img{
+        width: 60px;
+    }
+    
+    .name-container h2{
+        font-size: 15px;
+    }
+    
+    .name-container img{
+        width: 30px;
+    }
+    
+    .price-container{
+        gap: .5rem;
+    }
+
+    .price-container h2{
+        font-size: 16px;
+    }
+    
+    .price-container span{
+        font-size: 12px;
+    }
+    
+    .paragraph{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+    .card footer{
+        gap: .5rem;
+    }
+    
+    .card footer button{
+        height: 30px;
+        font-size: 9px
+    }
+    
+    .card footer button:nth-child(2){
+        background-color: var(--BLUE_COLOR);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .3rem;
+    }
+    
+    .card footer button i{
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 1px;
+    }
+    
+}

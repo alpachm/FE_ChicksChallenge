@@ -1,0 +1,34 @@
+.signin-button{
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--SIGNIN_BUTTON_BG);
+}
+
+.signin-button h3{
+    text-transform: uppercase;
+    color: var(--BLACK_COLOR);
+    font-weight: 800;
+}
+
+.signin-button i{
+    color: var(--BLACK_COLOR);
+    font-size: 20px;
+}
+
+@media (min-width: 1280px){
+    .signin-button {
+        width: 100px;
+        height: 40px;
+
+    }
+    .signin-button h3{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}

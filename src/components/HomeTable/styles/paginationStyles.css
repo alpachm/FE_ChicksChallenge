@@ -1,0 +1,27 @@
+.pagination{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left-arrow, .right-arrow{
+    border: 2px solid var(--BLUE_COLOR);
+}
+
+.pagination .numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

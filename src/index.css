@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --BG_COLOR: #2B2C3B;
+  --FOOTER_BG_COLOR: #303141;
+  --HOMESCREEN_BG_COLOR: rgba(48, 49, 65, .8);
+  --INPUT_BG_COLOR: RGBA(87, 98, 213, .1);
+  --SIGNIN_BUTTON_BG: #39E29D;
+  --TEXT_COLOR: #FFF;
+  --BLACK_COLOR: #000;
+  --LIGHT_BLUE_COLOR: #333764;
+  --BLUE_COLOR: #5762D5;
+  --GRAY_COLOR: #373E54;
+  --LIGHT_GRAY_COLOR: #44506d;
+
+  --Z_POSITION_ONE: 1000;
+  --Z_POSITION_TWO: 2000;
+  --Z_POSITION_THREE: 3000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: var(--TEXT_COLOR)
+}
+
+body{
+  overflow-x: hidden;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+.container-limit {
+  max-width: 1024px;
+  margin: auto;
+}

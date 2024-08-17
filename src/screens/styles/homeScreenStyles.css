@@ -1,0 +1,15 @@
+.homescreen{
+    background-image: url("./../../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homescreen > .homescreen-container {
+    background-color: var(--HOMESCREEN_BG_COLOR);
+    min-height: 100vh;
+    overflow-y: scroll;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
