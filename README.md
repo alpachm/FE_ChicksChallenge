@@ -59,3 +59,4 @@ src/
 └── index.css # Main CSS file
 \`\`\`
 # FE_ChicksChallenge
+# FE_ChicksChallenge
