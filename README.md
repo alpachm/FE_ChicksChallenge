@@ -22,7 +22,7 @@ Follow these steps to set up the project in your local environment:
 1. **Clone the repository:**
 
     \`\`\`bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
+    git clone https://github.com/alpachm/FE_ChicksChallenge.git
     cd FrontendChickens
     \`\`\`
 
@@ -58,5 +58,7 @@ src/
 └── index.html # Main HTML file
 └── index.css # Main CSS file
 \`\`\`
+
 # FE_ChicksChallenge
+
 # FE_ChicksChallenge
